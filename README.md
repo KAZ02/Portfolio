@@ -3,10 +3,10 @@
 
 # My Works
 学校で行われた個人制作の成果物です。
-1.TicTacToe
-2.DOGE JAPANESE
-3.UI&UX
-4.TIM
+- TicTacToe
+- DOGE JAPANESE
+- UI&UX
+- TIM
 
 # Group Works
 学校で行われたグループワークの成果物です。
