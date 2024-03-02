@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+
+<body>
+    <div id="app">
+        <el-container>
+            <el-header height="300px">
+                <el-row justify="center">
+                    <el-col :span="8" class="animate__animated animate__bounce">北</el-col>
+                    <el-col :span="8" class="animate__animated animate__bounce">海</el-col>
+                    <el-col :span="8" class="animate__animated animate__bounce">道</el-col>
+                </el-row>
+                <el-carousel :interval="4000" type="card" height="200px" :autoplay=true>
+                    <el-carousel-item v-for="(item ,index) in imgList" :key="index">
+                        <img :src="item" style="width: 100%;height: 100%;">
+                    </el-carousel-item>
+                </el-carousel>
+            </el-header>
+            <el-main>
+                <el-row>
+                    <el-col :span="2">
+                        <div class="grid-content bg-purple"></div>
+                    </el-col>
+                    <el-col :span="16" :offset="3">
+                        <el-card>
+                            <el-row>
+                                <el-col :span="14">
+                                    <img src="./imags/Hokkaido1.JPG" style="width: 100% ;height:310px">
+                                </el-col>
+                                <el-col :span="10">
+                                    <h2>北海道</h2>
+                                    <p style="padding: 0px 10px;">
+                                        北海道は日本の主要四島の中で最北端にある島で
+                                        広大な大自然や本州と違った文化、豊富なグルメや温泉など北海道でしか堪能できない魅力が盛りだくさんです。
+                                        また、明治以降本格的に開墾が始まった北海道は数多くの明治時代の建造物や遺跡が多いので、歴史が好きな人に特にオススメのエリアです。
+                                        <div class="copy_btn" data-clipboard-text="https://www.visit-hokkaido.jp">「北海道公式観光HP」<br>をコピーする</div>
+                                    </p>
+                                </el-col>
+                            </el-row>
+                        </el-card>
+                    </el-col>
+                </el-row>
+
+                <el-row style="margin-top: 10px;">
+                    <el-col :span="2"></el-col>
+                    <el-col :span="5" :offset="3">
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/Hokkaido2.JPG" style="width: 278px; height: 190px;">
+                            </div>
+                            <span style="display: block;">
+                                【<a>博物館　網走監獄</a>】<br>
+                                明治政府が掲げたスローガン「富国強兵」のもと、北海道開墾の為に日本全国から囚人が集められた日本最北端の刑務所。
+                                館内では当時の監獄の様子や歴史を監獄食堂では当時の受刑者が食べていた昼食を再現した監獄飯を食べることができます。
+                                <p><a href="https://www.google.com/maps/place/〒099-2421+北海道網走市呼人１−１/@43.9964726,144.2283138,17z/data=!3m1!4b1!4m5!3m4!1s0x5f6d346b0cd73f4f:0x1cd45ef4728b79e1!8m2!3d43.9964726!4d144.2305078?hl=ja">Googleマップ</a></p>
+                                <div class="copy_btn" data-clipboard-text="https://www.kangoku.jp">「博物館　網走監獄 HP」<br>をコピーする</div>
+
+                            </span>
+                        </el-card>
+                    </el-col>
+                    <el-col :span="5" class="card"><el-card>
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/Hokkaido3.JPG" style="width: 278px; height: 190px;">
+                            </div>
+                            <span>
+                                【<a>オホーツク漂流ウォーク</a>】<br>
+                                海が氷に閉ざされ白い月面のような光景に様変わりするオホーツクの2月、
+                                オホーツク海を旅して南下した神秘的な流氷に触れたり乗ったり、流氷の上を歩くアクティビティは、冬のオホーツク沿岸で2月1日～3月31日の2ヶ月しか体験できない稀有な体験ツアーです。<br>
+<p><a href="https://www.google.com/maps/d/u/0/viewer?mid=1dp-ugAMwNO4Ygx1wtVOi-5rCZUk0rQUe&hl=ja&ll=44.08311749999998%2C145.00804509999998&z=17">Googleマップ</a></p>
+                                <div class="copy_btn" data-clipboard-text="https://www.shinra.or.jp/ryuhyo_walk.html">「オホーツク海 HP」<br>をコピーする</div>
+
+                            </span>
+                        </el-card>
+                    </el-card></el-col>
+                    <el-col :span="5"><el-card>
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/Hokkaido4.JPG" style="width: 278px; height: 190px;">
+                            </div>
+                            <span>
+                                【<a>五稜郭</a>】<br>
+                                五稜郭は日本初の西洋式城郭で、
+                                当時ヨーロッパで発達していた「城郭都市」をモデルとして設計ました。
+                                このヨーロッパ式の土塁の構造の特徴でもある稜堡が５ヶ所あることから、通称「五稜郭」の名前がつきました。
+                                明治元年に開戦した函館戦争では榎本武揚ら旧幕臣がつくった臨時政府の本拠地となりました。<br>
+
+                                <a href="https://goo.gl/maps/rFoYEt3EBHgtHjgZ8">Googleマップ</a>
+                                <div class="copy_btn" data-clipboard-text="https://www.goryokaku-tower.co.jp/history/">「五稜郭 HP」<br>をコピーする</div>
+                            </span>
+                        </el-card>
+                    </el-card></el-col>
+                </el-row>
+            </el-main>
+        </el-container>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- ↓クリップボード操作のために使用するjsを読み込む　( https://clipboardjs.com/ ) -->
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js"></script>
+ 
+<script>
+var clipboard = new Clipboard('.copy_btn');    //clipboard.min.jsが動作する要素をクラス名で指定
+ 
+//クリックしたときの挙動
+$(function(){
+    $('.copy_btn').click(function(){
+        $(this).addClass('copied');    //ボタンの色などを変更するためにクラスを追加
+        $(this).text('コピーしました');    //テキストの書き換え
+    });
+});
+</script>
+
+</body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: function () {
+            return {
+                visible: false,
+                imgList: ['./imags/Hokkaido1.JPG', './imags/Hokkaido2.JPG', './imags/Hokkaido3.JPG'],
+            }
+        }
+    })
+</script>
+<style>
+    /* コピーボタン */
+.copy_btn {
+  width:80%!important;
+  padding: 12px 0;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  color:#ffffff;
+  font-weight:bold;
+  background:#000000;
+  border: solid 2px #000000;
+  border-radius: 3px;
+  transition: .4s;
+  text-align: center;
+}
+ 
+.copy_btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+.copy_btn:hover {
+	cursor: pointer;
+}
+    .card {
+        margin: 0px 28px;
+    }
+
+    .el-card>.el-row {
+        width: 380px;
+        height: 340px;
+        margin-top: 10px;
+    }
+
+    .el-card__body {
+        padding: 0px;
+    }
+
+    .el-header .el-row {
+        margin-top: 10px;
+        font-size: 30px;
+        color: purple;
+    }
+
+    .el-carousel {
+        margin-top: 20px;
+    }
+
+    .el-header {
+        background-color:#fff;
+        color: #333;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .el-main {
+        height: 1000px;
+        background: linear-gradient(skyblue, white);
+        background-repeat: no-repeat;
+        background-size:cover;
+        color: #333;
+        text-align: center;
+    }
+
+    /* carousel */
+    .el-carousel__item h3 {
+        color: #475669;
+        font-size: 14px;
+        opacity: 0.75;
+        line-height: 200px;
+        margin: 0;
+    }
+
+    .el-carousel__item:nth-child(2n) {
+        background-color: #99a9bf;
+    }
+
+    .el-carousel__item:nth-child(2n+1) {
+        background-color: #d3dce6;
+    }
+</style>
+
+</html>

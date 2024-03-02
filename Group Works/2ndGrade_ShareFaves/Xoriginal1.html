@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="app">
+        <el-container direction="vertical">
+            <el-header height="100px">
+                <el-row justify="center">
+                    <el-col :span="8" class="animate__animated animate__bounce">北</el-col>
+                    <el-col :span="8" class="animate__animated animate__bounce">海</el-col>
+                    <el-col :span="8" class="animate__animated animate__bounce">道</el-col>
+                  </el-row>
+            </el-header>
+            <el-main :style="`background-image: url('./imags/${index}.jpg')`">
+                <el-aside width="300px">
+                    <el-carousel height="300px" @change="changeImg($event)">
+                        <el-carousel-item v-for="(item,index) in imgList" :key="index">
+                            <img :src="item" style="height: 100%;" :ref="index">
+                        </el-carousel-item>
+                      </el-carousel>
+                </el-aside>
+                <div class="desc" >
+                    <el-row>
+                        <el-col :span="24"><h3>{{attractions.title}}</h3></el-col>
+                    </el-row>
+                    <el-row>
+                        <el-col :span="2"></el-col>
+                        <!-- <el-col :span="22">{{attractions.desc}}</el-col>
+                        <el-col :span="2"></el-col> -->
+                        {{attractions.desc}}
+                    </el-row>
+                    
+                    
+                </div>
+            </el-main>
+            <el-footer height="100px">Footer</el-footer>
+        </el-container>
+    </div>
+
+</body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+<script>
+//     new Vue({
+//         el: '#app',
+//         data: function () {
+//             return { 
+//                 visible: false,
+//                 imgList:['./imags/1.jpg','./imags/2.jpg','./imags/3.jpg'],
+//                 index:1,
+//                 attractions:{},
+//                 attractionsList:[
+//                     {
+//                         title:'北海道1',
+//                         desc:"明治政府は開拓使の設置に伴い名称の変更を検討。1869年（明治2年）、蝦夷地探査やアイヌとの交流を続けていた松浦武四郎は政府に建白書を提出し、「日高見道」「北加伊道」「海北道」「海島道」「東北道」「千島道」の6案を提示した[6]。明治政府は「北加伊道」を基本とし「加伊」を「海」に改めた「北海道」とすることを決定[6]。",
+//                     },
+//                     {
+//                         title:'北海道2',
+//                         desc:'北海道は日本の主要四島の中で最北端にある島で、火山、天然温泉、スキー場で知られています。起伏の激しい大雪山国立公園には蒸気を上げる火山の旭岳があり、支笏洞爺国立公園にはカルデラ湖、地熱温泉、富士山に似た羊蹄山があります',
+//                     },
+//                     {
+//                         title:'北海道3',
+//                         desc:'的点点滴滴多多多多多多多多多',
+//                     },
+//                 ]
+//             }
+//         },
+//         mounted() {
+//             this.attractions = this.attractionsList[0]
+//         },
+//         methods: {
+//             changeImg(e){
+//                 this.index = e + 1;
+//                 this.attractions = this.attractionsList[e]
+//             }
+//         },
+//     })
+// </script>
+<style>
+    .el-header {
+        background-color: #B3C0D1;
+        color: #333;
+        line-height: 60px;
+    }
+
+    .el-main {
+        position: relative;
+        height: 600px;
+        background-color: red;
+    
+        background-repeat: no-repeat;
+        background-size:cover;
+
+    }
+    .el-footer{
+        background-color: aqua;
+    }
+    .el-header .el-row{
+        text-align: center;   
+        font-size: 50px;
+        font-weight: 100px;
+    }
+    .el-aside{
+        margin: 100px 0px;
+        height: 300px;
+        background-color: blue;
+    }
+    /* carousel */
+    .el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 150px;
+    margin: 0;
+  }
+
+  .el-carousel__item:nth-child(2n) {
+     background-color: #99a9bf;
+  }
+  
+  .el-carousel__item:nth-child(2n+1) {
+     background-color: #d3dce6;
+  }
+
+  .desc{
+    position: absolute;
+    border: 0ch;
+    width: 400px;
+    height: 400px;
+    color: aliceblue;
+    background-color: rgba(165, 42, 42,0.3);
+    right: 100px;
+    top: 100px;
+  }
+  .desc .el-row{
+    text-align: center;
+  }
+</style>
+
+</html>

@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+
+<body>
+    <div id="app">
+        <el-container>
+            <el-header height="300px">
+                <el-row justify="center">
+                    <el-col :span="8" class="animate__animated animate__bounce">長</el-col>
+                    <el-col :span="8" class="animate__animated animate__bounce">野</el-col>
+                    <el-col :span="8" class="animate__animated animate__bounce">県</el-col>
+                </el-row>
+                <el-carousel :interval="4000" type="card" height="200px" :autoplay=true>
+                    <el-carousel-item v-for="(item ,index) in imgList" :key="index">
+                        <img :src="item" style="width: 100%;height: 100%;">
+                    </el-carousel-item>
+                </el-carousel>
+            </el-header>
+            <el-main>
+                <el-row>
+                    <el-col :span="2">
+                        <div class="grid-content bg-purple"></div>
+                    </el-col>
+                    <el-col :span="16" :offset="3">
+                        <el-card>
+                            <el-row>
+                                <el-col :span="14">
+                                    <img src="./imags/Nagano1.JPG" style="width: 100% ;height:310px">
+                                </el-col>
+                                <el-col :span="10">
+                                    <h2>
+                                        長野県</h2>
+                                    <p style="padding: 0px 10px;">
+                                        <div class="copy_btn" data-clipboard-text="https://www.go-nagano.net">「長野県公式観光HP」<br>をコピーする</div>
+                                    </p>
+                                </el-col>
+                            </el-row>
+                        </el-card>
+                    </el-col>
+                </el-row>
+
+                <el-row style="margin-top: 10px;">
+                    <el-col :span="2"></el-col>
+                    <el-col :span="5" :offset="3">
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/Nagano2.JPG" style="width: 278px; height: 190px;">
+                            </div>
+                            <span style="display: block;">
+                                【<a>上高地</a>】<br>
+                                <p><a href="https://www.google.com/maps/place/上高地/@36.2513203,137.653235,15z/data=!4m2!3m1!1s0x0:0x9a6e421faf5c3807?sa=X&ved=2ahUKEwjGgZ-IztX8AhWM1GEKHYmoBy8Q_BJ6BAhsEAg">Googleマップ</a></p>
+                                <div class="copy_btn" data-clipboard-text="https://www.kamikochi.or.jp">「上高地 HP」<br>をコピーする</div>
+
+                            </span>
+                        </el-card>
+                    </el-col>
+                    <el-col :span="5" class="card"><el-card>
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/Nagano3.JPG" style="width: 278px; height: 190px;">
+                            </div>
+                            <span>
+                                【<a>地獄谷野猿公苑</a>】<br>
+                                <p><a href="https://www.google.com/maps/place/地獄谷野猿公苑/@36.7326856,138.4621364,15z/data=!4m2!3m1!1s0x0:0xf64d8b73ef8dd61f?sa=X&ved=2ahUKEwj49PW1ztX8AhUJ1GEKHRDZC5gQ_BJ6BAhxEAg">Googleマップ</a></p>
+                                <div class="copy_btn" data-clipboard-text="https://jigokudani-yaenkoen.co.jp">「地獄谷野猿公苑 HP」<br>をコピーする</div>
+
+                            </span>
+                        </el-card>
+                    </el-card></el-col>
+                    <el-col :span="5"><el-card>
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/Nagano4.JPG" style="width: 278px; height: 190px;">
+                            </div>
+                            <span>
+                                【<a>妻籠宿</a>】<br>
+                                <a href="https://www.google.com/maps/place/妻籠宿/@35.5775876,137.5956667,15z/data=!4m2!3m1!1s0x0:0x87bc2c35315036f6?sa=X&ved=2ahUKEwjpmurPztX8AhWur1YBHeiwBZUQ_BJ6BQiQARAI">Googleマップ</a>
+                                <div class="copy_btn" data-clipboard-text="https://amanoiwato-jinja.jp">「妻籠宿 HP」<br>をコピーする</div>
+                            </span>
+                        </el-card>
+                    </el-card></el-col>
+                </el-row>
+            </el-main>
+        </el-container>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- ↓クリップボード操作のために使用するjsを読み込む　( https://clipboardjs.com/ ) -->
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js"></script>
+ 
+<script>
+var clipboard = new Clipboard('.copy_btn');    //clipboard.min.jsが動作する要素をクラス名で指定
+ 
+//クリックしたときの挙動
+$(function(){
+    $('.copy_btn').click(function(){
+        $(this).addClass('copied');    //ボタンの色などを変更するためにクラスを追加
+        $(this).text('コピーしました');    //テキストの書き換え
+    });
+});
+</script>
+
+</body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: function () {
+            return {
+                visible: false,
+                imgList: ['./imags/Nagano1.JPG', './imags/Nagano2.JPG', './imags/Nagano3.JPG'],
+            }
+        }
+    })
+</script>
+<style>
+    /* コピーボタン */
+.copy_btn {
+  width:80%!important;
+  padding: 12px 0;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  color:#ffffff;
+  font-weight:bold;
+  background:#000000;
+  border: solid 2px #000000;
+  border-radius: 3px;
+  transition: .4s;
+  text-align: center;
+}
+ 
+.copy_btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+.copy_btn:hover {
+	cursor: pointer;
+}
+    .card {
+        margin: 0px 28px;
+    }
+
+    .el-card>.el-row {
+        width: 380px;
+        height: 340px;
+        margin-top: 10px;
+    }
+
+    .el-card__body {
+        padding: 0px;
+    }
+
+    .el-header .el-row {
+        margin-top: 10px;
+        font-size: 30px;
+        color: purple;
+    }
+
+    .el-carousel {
+        margin-top: 20px;
+    }
+
+    .el-header {
+        background-color:skyblue;
+        color: #333;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .el-main {
+        height: 1000px;
+        background: linear-gradient(#b3dcd8 ,#fff);
+        background-repeat: no-repeat;
+        background-size:cover;
+        color: #333;
+        text-align: center;
+    }
+
+    /* carousel */
+    .el-carousel__item h3 {
+        color: #475669;
+        font-size: 14px;
+        opacity: 0.75;
+        line-height: 200px;
+        margin: 0;
+    }
+
+    .el-carousel__item:nth-child(2n) {
+        background-color: #99a9bf;
+    }
+
+    .el-carousel__item:nth-child(2n+1) {
+        background-color: #d3dce6;
+    }
+</style>
+
+</html>

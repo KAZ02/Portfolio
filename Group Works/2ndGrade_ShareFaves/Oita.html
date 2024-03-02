@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+
+<body>
+    <div id="app">
+        <el-container>
+            <el-header height="300px">
+                <el-row justify="center">
+                    <el-col :span="8" class="animate__animated animate__bounce">大</el-col>
+                    <el-col :span="8" class="animate__animated animate__bounce">分</el-col>
+                    <el-col :span="8" class="animate__animated animate__bounce">県</el-col>
+                </el-row>
+                <el-carousel :interval="4000" type="card" height="200px" :autoplay=true>
+                    <el-carousel-item v-for="(item ,index) in imgList" :key="index">
+                        <img :src="item" style="width: 100%;height: 100%;">
+                    </el-carousel-item>
+                </el-carousel>
+            </el-header>
+            <el-main>
+                <el-row>
+                    <el-col :span="2">
+                        <div class="grid-content bg-purple"></div>
+                    </el-col>
+                    <el-col :span="16" :offset="3">
+                        <el-card>
+                            <el-row>
+                                <el-col :span="14">
+                                    <img src="./imags/Oita1.JPG" style="width: 100% ;height:310px">
+                                </el-col>
+                                <el-col :span="10">
+                                    <h2>
+                                        大分県</h2>
+                                    <p style="padding: 0px 10px;">
+                                        <div class="copy_btn" data-clipboard-text="https://www.visit-oita.jp">「大分県公式観光HP」<br>をコピーする</div>
+                                    </p>
+                                </el-col>
+                            </el-row>
+                        </el-card>
+                    </el-col>
+                </el-row>
+
+                <el-row style="margin-top: 10px;">
+                    <el-col :span="2"></el-col>
+                    <el-col :span="5" :offset="3">
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/Oita1.JPG" style="width: 278px; height: 190px;">
+                            </div>
+                            <span style="display: block;">
+                                【<a>地獄巡り</a>】<br>
+                                <p><a href="https://www.google.com/maps/place/べっぷ地獄めぐり/@33.3163466,131.4670498,17z/data=!4m10!1m2!2m1!1z5Zyw542E5beh44KK!3m6!1s0x3546a7b960bca539:0x8bdccd2d35d910f2!8m2!3d33.3158833!4d131.4696745!15sCgzlnLDnjYTlt6HjgopaDyIN5Zyw542EIOW3oeOCipIBEnRvdXJpc3RfYXR0cmFjdGlvbuABAA!16s%2Fm%2F0j3fwhc">Googleマップ</a></p>
+                                <div class="copy_btn" data-clipboard-text="http://www.beppu-jigoku.com">「地獄巡り HP」<br>をコピーする</div>
+
+                            </span>
+                        </el-card>
+                    </el-col>
+                    <el-col :span="5" class="card"><el-card>
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/Oita2.JPG" style="width: 278px; height: 190px;">
+                            </div>
+                            <span>
+                                【<a>別府温泉</a>】<br>
+                                <p><a href="https://www.google.com/maps/place/べっぷ地獄めぐり/@33.3163466,131.4670498,17z/data=!4m10!1m2!2m1!1z5Zyw542E5beh44KK!3m6!1s0x3546a7b960bca539:0x8bdccd2d35d910f2!8m2!3d33.3158833!4d131.4696745!15sCgzlnLDnjYTlt6HjgopaDyIN5Zyw542EIOW3oeOCipIBEnRvdXJpc3RfYXR0cmFjdGlvbuABAA!16s%2Fm%2F0j3fwhc">Googleマップ</a></p>
+                                <div class="copy_btn" data-clipboard-text="https://onsendo.beppu-navi.jp">「別府温泉 HP」<br>をコピーする</div>
+
+                            </span>
+                        </el-card>
+                    </el-card></el-col>
+                    <el-col :span="5"><el-card>
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/Oita3.JPG" style="width: 278px; height: 190px;">
+                            </div>
+                            <span>
+                                【<a>岡城跡</a>】<br>
+                                <a href="https://www.google.com/maps/place/岡城跡/@32.9676577,131.403023,17z/data=!4m10!1m2!2m1!1z5bKh5Z-O6Leh!3m6!1s0x3546cf1904d44409:0x2763d05fe34b8126!8m2!3d32.9691026!4d131.4077677!15sCgnlsqHln47ot6FaDCIK5bKhIOWfjui3oZIBBmNhc3RsZeABAA!16s%2Fm%2F0nbfs1k">Googleマップ</a>
+                                <div class="copy_btn" data-clipboard-text="https://okajou.jp">「岡城跡 HP」<br>をコピーする</div>
+                            </span>
+                        </el-card>
+                    </el-card></el-col>
+                </el-row>
+            </el-main>
+        </el-container>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- ↓クリップボード操作のために使用するjsを読み込む　( https://clipboardjs.com/ ) -->
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js"></script>
+ 
+<script>
+var clipboard = new Clipboard('.copy_btn');    //clipboard.min.jsが動作する要素をクラス名で指定
+ 
+//クリックしたときの挙動
+$(function(){
+    $('.copy_btn').click(function(){
+        $(this).addClass('copied');    //ボタンの色などを変更するためにクラスを追加
+        $(this).text('コピーしました');    //テキストの書き換え
+    });
+});
+</script>
+
+</body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: function () {
+            return {
+                visible: false,
+                imgList: ['./imags/Oita1.JPG', './imags/Oita2.JPG', './imags/Oita3.JPG'],
+            }
+        }
+    })
+</script>
+<style>
+    /* コピーボタン */
+.copy_btn {
+  width:80%!important;
+  padding: 12px 0;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  color:#ffffff;
+  font-weight:bold;
+  background:#000000;
+  border: solid 2px #000000;
+  border-radius: 3px;
+  transition: .4s;
+  text-align: center;
+}
+ 
+.copy_btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+.copy_btn:hover {
+	cursor: pointer;
+}
+    .card {
+        margin: 0px 28px;
+    }
+
+    .el-card>.el-row {
+        width: 380px;
+        height: 340px;
+        margin-top: 10px;
+    }
+
+    .el-card__body {
+        padding: 0px;
+    }
+
+    .el-header .el-row {
+        margin-top: 10px;
+        font-size: 30px;
+        color: purple;
+    }
+
+    .el-carousel {
+        margin-top: 20px;
+    }
+
+    .el-header {
+        background-color:#005EA7;
+        color: #333;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .el-main {
+        height: 1000px;
+        background: linear-gradient(#74C7F0,#419ACF);
+        background-repeat: no-repeat;
+        background-size:cover;
+        color: #333;
+        text-align: center;
+    }
+
+    /* carousel */
+    .el-carousel__item h3 {
+        color: #475669;
+        font-size: 14px;
+        opacity: 0.75;
+        line-height: 200px;
+        margin: 0;
+    }
+
+    .el-carousel__item:nth-child(2n) {
+        background-color: #99a9bf;
+    }
+
+    .el-carousel__item:nth-child(2n+1) {
+        background-color: #d3dce6;
+    }
+</style>
+
+</html>

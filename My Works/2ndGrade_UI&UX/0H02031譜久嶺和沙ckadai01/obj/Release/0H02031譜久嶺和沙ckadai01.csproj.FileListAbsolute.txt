@@ -1,0 +1,11 @@
+C:\ckadai\C#\0H02031譜久嶺和沙ckadai01\0H02031譜久嶺和沙ckadai01\bin\Release\0H02031譜久嶺和沙ckadai01.exe.config
+C:\ckadai\C#\0H02031譜久嶺和沙ckadai01\0H02031譜久嶺和沙ckadai01\bin\Release\0H02031譜久嶺和沙ckadai01.exe
+C:\ckadai\C#\0H02031譜久嶺和沙ckadai01\0H02031譜久嶺和沙ckadai01\bin\Release\0H02031譜久嶺和沙ckadai01.pdb
+C:\ckadai\C#\0H02031譜久嶺和沙ckadai01\0H02031譜久嶺和沙ckadai01\obj\Release\0H02031譜久嶺和沙ckadai01.csproj.AssemblyReference.cache
+C:\ckadai\C#\0H02031譜久嶺和沙ckadai01\0H02031譜久嶺和沙ckadai01\obj\Release\0H02031譜久嶺和沙ckadai01.csproj.SuggestedBindingRedirects.cache
+C:\ckadai\C#\0H02031譜久嶺和沙ckadai01\0H02031譜久嶺和沙ckadai01\obj\Release\_0H02031譜久嶺和沙ckadai01.Form1.resources
+C:\ckadai\C#\0H02031譜久嶺和沙ckadai01\0H02031譜久嶺和沙ckadai01\obj\Release\_0H02031譜久嶺和沙ckadai01.Properties.Resources.resources
+C:\ckadai\C#\0H02031譜久嶺和沙ckadai01\0H02031譜久嶺和沙ckadai01\obj\Release\0H02031譜久嶺和沙ckadai01.csproj.GenerateResource.cache
+C:\ckadai\C#\0H02031譜久嶺和沙ckadai01\0H02031譜久嶺和沙ckadai01\obj\Release\0H02031譜久嶺和沙ckadai01.csproj.CoreCompileInputs.cache
+C:\ckadai\C#\0H02031譜久嶺和沙ckadai01\0H02031譜久嶺和沙ckadai01\obj\Release\0H02031譜久嶺和沙ckadai01.exe
+C:\ckadai\C#\0H02031譜久嶺和沙ckadai01\0H02031譜久嶺和沙ckadai01\obj\Release\0H02031譜久嶺和沙ckadai01.pdb

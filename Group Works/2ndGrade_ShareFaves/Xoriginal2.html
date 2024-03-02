@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+
+<body>
+    <div id="app">
+        <el-container>
+            <el-header height="300px">
+                <el-row justify="center">
+                    <el-col :span="8" class="animate__animated animate__bounce">北</el-col>
+                    <el-col :span="8" class="animate__animated animate__bounce">海</el-col>
+                    <el-col :span="8" class="animate__animated animate__bounce">道</el-col>
+                </el-row>
+                <el-carousel :interval="4000" type="card" height="200px" :autoplay=true>
+                    <el-carousel-item v-for="(item ,index) in imgList" :key="index">
+                        <img :src="item" style="width: 100%;height: 100%;">
+                    </el-carousel-item>
+                </el-carousel>
+            </el-header>
+            <el-main>
+                <el-row>
+                    <el-col :span="2">
+                        <div class="grid-content bg-purple"></div>
+                    </el-col>
+                    <el-col :span="16" :offset="3">
+                        <el-card>
+                            <el-row>
+                                <el-col :span="12">
+                                    <img src="./imags/1.jpg" style="width: 450px;height:310px">
+                                </el-col>
+                                <el-col :span="12">
+                                    <h2>北海道</h2>
+                                    <p style="padding: 0px 10px;">
+                                        北海道は日本の主要四島の中で最北端にある島で、火山、天然温泉、スキー場で知られています。
+                                        起伏の激しい大雪山国立公園には蒸気を上げる火山の旭岳があり、支笏洞爺国立公園にはカルデ
+                                        ラ湖、地熱温泉、富士山に似た羊蹄山があります
+                                    </p>
+                                </el-col>
+                            </el-row>
+                        </el-card>
+                    </el-col>
+                </el-row>
+
+                <el-row>
+                    <el-col :span="2"></el-col>
+                    <el-col :span="5" :offset="3">
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/2.jpg" style="width: 278px; height: 190px;">
+                            </div>
+                            <span>
+                                北海道は日本の主要四島の中で最北端にある島で、火山、天然温泉、スキー場で知られています。
+                                起伏の激しい大雪山国立公園には蒸気を上げる火山の旭岳があり、支笏洞爺国立公園にはカルデ
+                                ラ湖、地熱温泉、富士山に似た羊蹄山があります
+                            </span>
+                        </el-card>
+                    </el-col>
+                    <el-col :span="5" class="card"><el-card>
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/3.jpg" style="width: 278px; height: 190px;">
+                            </div>
+                            <span>
+                                北海道は日本の主要四島の中で最北端にある島で、火山、天然温泉、スキー場で知られています。
+                                起伏の激しい大雪山国立公園には蒸気を上げる火山の旭岳があり、支笏洞爺国立公園にはカルデ
+                                ラ湖、地熱温泉、富士山に似た羊蹄山があります
+                            </span>
+                        </el-card>
+                    </el-card></el-col>
+                    <el-col :span="5"><el-card>
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/1.jpg" style="width: 278px; height: 190px;">
+                            </div>
+                            <span>
+                                北海道は日本の主要四島の中で最北端にある島で、火山、天然温泉、スキー場で知られています。
+                                起伏の激しい大雪山国立公園には蒸気を上げる火山の旭岳があり、支笏洞爺国立公園にはカルデ
+                                ラ湖、地熱温泉、富士山に似た羊蹄山があります
+                            </span>
+                        </el-card>
+                    </el-card></el-col>
+                </el-row>
+            </el-main>
+        </el-container>
+    </div>
+</body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: function () {
+            return {
+                visible: false,
+                imgList: ['./imags/1.jpg', './imags/2.jpg', './imags/3.jpg'],
+            }
+        }
+    })
+</script>
+<style>
+    .card {
+        margin: 0px 28px;
+    }
+
+    .el-card>.el-row {
+        width: 380px;
+        height: 340px;
+        margin-top: 10px;
+    }
+
+    .el-card__body {
+        padding: 0px;
+    }
+
+    .el-header .el-row {
+        margin-top: 10px;
+        font-size: 30px;
+        color: purple;
+    }
+
+    .el-carousel {
+        margin-top: 20px;
+    }
+
+    .el-header {
+        background-color:#fff;
+        color: #333;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .el-main {
+        height: 1000px;
+        background-color: #E9EEF3;
+        background-image: url("./imags/m.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        color: #333;
+        text-align: center;
+    }
+
+    /* carousel */
+    .el-carousel__item h3 {
+        color: #475669;
+        font-size: 14px;
+        opacity: 0.75;
+        line-height: 200px;
+        margin: 0;
+    }
+
+    .el-carousel__item:nth-child(2n) {
+        background-color: #99a9bf;
+    }
+
+    .el-carousel__item:nth-child(2n+1) {
+        background-color: #d3dce6;
+    }
+</style>
+
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+
+<body>
+    <div id="app">
+        <el-container>
+            <el-header height="300px">
+                <el-row justify="center">
+                    <el-col :span="8" class="animate__animated animate__bounce">高</el-col>
+                    <el-col :span="8" class="animate__animated animate__bounce">知</el-col>
+                    <el-col :span="8" class="animate__animated animate__bounce">県</el-col>
+                </el-row>
+                <el-carousel :interval="4000" type="card" height="200px" :autoplay=true>
+                    <el-carousel-item v-for="(item ,index) in imgList" :key="index">
+                        <img :src="item" style="width: 100%;height: 100%;">
+                    </el-carousel-item>
+                </el-carousel>
+            </el-header>
+            <el-main>
+                <el-row>
+                    <el-col :span="2">
+                        <div class="grid-content bg-purple"></div>
+                    </el-col>
+                    <el-col :span="16" :offset="3">
+                        <el-card>
+                            <el-row>
+                                <el-col :span="14">
+                                    <img src="./imags/Kouchi3.JPG" style="width: 100% ;height:310px">
+                                </el-col>
+                                <el-col :span="10">
+                                    <h2>高知県</h2>
+                                    <p style="padding: 0px 10px;">
+                                        高知県は四国の太平洋沿岸の県で坂本龍馬やカツオ、四万十川で有名です。
+高知県は山・川・海に恵まれており、四国百名山に選ばれている名山や、高品質な土佐和紙を産む澄んだ川や、青が美しい海と魅力が沢山詰まった県です。
+                                        <div class="copy_btn" data-clipboard-text="https://www.city.kochi.kochi.jp/site/kanko/">「高知県公式観光HP」<br>をコピーする</div>
+                                    </p>
+                                </el-col>
+                            </el-row>
+                        </el-card>
+                    </el-col>
+                </el-row>
+
+                <el-row style="margin-top: 10px;">
+                    <el-col :span="2"></el-col>
+                    <el-col :span="5" :offset="3">
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/Kouchi2.JPG" style="width: 278px; height: 190px;">
+                            </div>
+                            <span style="display: block;">
+                                【ごめん駅】<br>
+                                何ともユニークな名前の「ごめん駅」はJR四国の土讃線と、土佐くろしお鉄道のごめん・なはり線が乗り入れる、JR四国・土佐くろしお鉄道の駅です。
+                                駅構内にはやなせたかし氏がデザインした「ごめん　えきお君」というイメージキャラクターがいます。
+                                ごめん・なはり線は当駅が起点ですが、一部列車は土讃線に直通運転を実施しており
+                                高知駅まで乗り入れているため高知城やひろめ市場といった、高知市観光の道中に寄るのがオススメです。
+<p><a href="https://goo.gl/maps/gDvA178vS6M2dr61A">Googleマップ</a></p>
+<div class="copy_btn" data-clipboard-text="https://www.jr-shikoku.co.jp/01_trainbus/kakueki/gomen/">「ごめん駅 HP」<br>をコピーする</div>
+                            </span>
+                        </el-card>
+                    </el-col>
+                    <el-col :span="5" class="card"><el-card>
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/Kouchi1.JPG" style="width: 278px; height: 190px;">
+                            </div>
+                            <span>
+                                【沈下橋】<br>
+                                四国内で最長の川である四万十川は
+                                本流に大規模なダムが建設されていないことから「日本最後の清流」、また柿田川・長良川とともに「日本三大清流の一つ」と呼ばれる。名水百選、日本の秘境100選にも選ばれている。
+                                そんな四万十川には支流も含めて47の沈下橋といわれる高水時に水面下に潜る橋が架かっており、澄んだ山の空気と澄んだ清流の中を歩くことができます。
+<p><a href="https://www.google.com/maps/search/高知%E3%80%80沈下橋/@33.3036931,132.7945429,10z/data=!3m1!4b1">Googleマップ</a></p>
+                                <div class="copy_btn" data-clipboard-text="https://www.city.shimanto.lg.jp/soshiki/13/1454.html">「沈下橋 HP」<br>をコピーする</div>
+                            </span>
+                        </el-card>
+                    </el-card></el-col>
+                    <el-col :span="5"><el-card>
+                        <el-card>
+                            <div style="margin: 0px;">
+                                <img src="./imags/Kouchi4.JPG" style="width: 278px; height: 190px;">
+                            </div>
+                            <span>
+                                【土佐和紙】<br>
+                                高知県の「土佐和紙」は福井県の「越前和紙」、岐阜県の「美濃和紙」と並び、三大和紙と呼ばれています。
+特徴は種類の豊富さと品質の良さで、主な原料は、楮(こうぞ)、三椏(みつまた)、雁皮(がんぴ)で、製紙業に必要な清らかな水に恵まれていたことが、発展の理由と言われています。
+その品質の良さは国司として土佐に赴任した紀貫之も製紙業を奨励したほどと言われております。
+<div class="copy_btn" data-clipboard-text="https://www.city.kochi.kochi.jp/site/tosa-kogei/tosanotezukuri-tosawashi.html">「土佐和紙 HP」<br>をコピーする</div>
+                            </span>
+                        </el-card>
+                    </el-card></el-col>
+                </el-row>
+            </el-main>
+        </el-container>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- ↓クリップボード操作のために使用するjsを読み込む　( https://clipboardjs.com/ ) -->
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js"></script>
+     
+    <script>
+    var clipboard = new Clipboard('.copy_btn');    //clipboard.min.jsが動作する要素をクラス名で指定
+     
+    //クリックしたときの挙動
+    $(function(){
+        $('.copy_btn').click(function(){
+            $(this).addClass('copied');    //ボタンの色などを変更するためにクラスを追加
+            $(this).text('コピーしました');    //テキストの書き換え
+        });
+    });
+    </script>
+</body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: function () {
+            return {
+                visible: false,
+                imgList: ['./imags/Kouchi1.JPG', './imags/Kouchi2.JPG', './imags/Kouchi3.JPG','./imags/Kouchi4.JPG'],
+            }
+        }
+    })
+</script>
+<style>
+     /* コピーボタン */
+.copy_btn {
+  width:80%!important;
+  padding: 12px 0;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  color:#ffffff;
+  font-weight:bold;
+  background:#000000;
+  border: solid 2px #000000;
+  border-radius: 3px;
+  transition: .4s;
+  text-align: center;
+}
+ 
+.copy_btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+.copy_btn:hover {
+	cursor: pointer;
+}
+    .card {
+        margin: 0px 28px;
+    }
+
+    .el-card>.el-row {
+        width: 380px;
+        height: 340px;
+        margin-top: 10px;
+    }
+
+    .el-card__body {
+        padding: 0px;
+    }
+
+    .el-header .el-row {
+        margin-top: 10px;
+        font-size: 30px;
+        color: purple;
+    }
+
+    .el-carousel {
+        margin-top: 20px;
+    }
+
+    .el-header {
+        background-color:#3EA6B1;
+        color: #333;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .el-main {
+        height: 1000px;
+        background: linear-gradient(#565599,#E3D1C0);
+        background-repeat: no-repeat;
+        background-size:cover;
+        color: #333;
+        text-align: center;
+    }
+
+    /* carousel */
+    .el-carousel__item h3 {
+        color: #475669;
+        font-size: 14px;
+        opacity: 0.75;
+        line-height: 200px;
+        margin: 0;
+    }
+
+    .el-carousel__item:nth-child(2n) {
+        background-color: #99a9bf;
+    }
+
+    .el-carousel__item:nth-child(2n+1) {
+        background-color: #d3dce6;
+    }
+</style>
+
+</html>

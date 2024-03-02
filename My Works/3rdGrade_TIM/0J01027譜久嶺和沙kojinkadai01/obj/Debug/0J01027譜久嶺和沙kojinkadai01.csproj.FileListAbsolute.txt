@@ -1,0 +1,12 @@
+C:\ckadai\C#\0J01027譜久嶺和沙kojinkadai01\0J01027譜久嶺和沙kojinkadai01\bin\Debug\0J01027譜久嶺和沙kojinkadai01.exe.config
+C:\ckadai\C#\0J01027譜久嶺和沙kojinkadai01\0J01027譜久嶺和沙kojinkadai01\bin\Debug\0J01027譜久嶺和沙kojinkadai01.exe
+C:\ckadai\C#\0J01027譜久嶺和沙kojinkadai01\0J01027譜久嶺和沙kojinkadai01\bin\Debug\0J01027譜久嶺和沙kojinkadai01.pdb
+C:\ckadai\C#\0J01027譜久嶺和沙kojinkadai01\0J01027譜久嶺和沙kojinkadai01\obj\Debug\0J01027譜久嶺和沙kojinkadai01.csproj.AssemblyReference.cache
+C:\ckadai\C#\0J01027譜久嶺和沙kojinkadai01\0J01027譜久嶺和沙kojinkadai01\obj\Debug\0J01027譜久嶺和沙kojinkadai01.csproj.SuggestedBindingRedirects.cache
+C:\ckadai\C#\0J01027譜久嶺和沙kojinkadai01\0J01027譜久嶺和沙kojinkadai01\obj\Debug\_0J01027譜久嶺和沙kojinkadai01.Form1.resources
+C:\ckadai\C#\0J01027譜久嶺和沙kojinkadai01\0J01027譜久嶺和沙kojinkadai01\obj\Debug\_0J01027譜久嶺和沙kojinkadai01.Properties.Resources.resources
+C:\ckadai\C#\0J01027譜久嶺和沙kojinkadai01\0J01027譜久嶺和沙kojinkadai01\obj\Debug\0J01027譜久嶺和沙kojinkadai01.csproj.GenerateResource.cache
+C:\ckadai\C#\0J01027譜久嶺和沙kojinkadai01\0J01027譜久嶺和沙kojinkadai01\obj\Debug\0J01027譜久嶺和沙kojinkadai01.csproj.CoreCompileInputs.cache
+C:\ckadai\C#\0J01027譜久嶺和沙kojinkadai01\0J01027譜久嶺和沙kojinkadai01\obj\Debug\0J01027譜久嶺和沙kojinkadai01.exe
+C:\ckadai\C#\0J01027譜久嶺和沙kojinkadai01\0J01027譜久嶺和沙kojinkadai01\obj\Debug\0J01027譜久嶺和沙kojinkadai01.pdb
+C:\ckadai\C#\0J01027譜久嶺和沙kojinkadai01\0J01027譜久嶺和沙kojinkadai01\obj\Debug\_0J01027譜久嶺和沙kojinkadai01.Form2.resources
