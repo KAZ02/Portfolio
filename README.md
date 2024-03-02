@@ -1,16 +1,16 @@
 # Portfolio
 就職活動用ポートフォリオ
 
-# My Works
+### My Works
 学校で行われた個人制作の成果物です。
-- TicTacToe
-- DOGE JAPANESE
-- UI&UX
-- TIM
+- 1年生「TicTacToe」
+- 2年生「DOGE JAPANESE」
+- 2年生「季節判定アプリ(UI&UX課題)」
+- 3年生「TIM」
 
-# Group Works
+### Group Works
 学校で行われたグループワークの成果物です。
-1.TETRIS
-2.ShareFaves
-3.KanjiQuiz
-4.NewR-Code
+- 1年生「TETRIS」
+- 2年生「ShareFaves」
+- 3年生「KanjiQuiz」
+- 3年生「NewR-Code」
