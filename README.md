@@ -9,7 +9,7 @@
 - 3年生「TIM」
 
 ### Team Works
-学校で行われたグループワークの成果物です。
+学校で行われたチームワークの成果物です。
 - 1年生「TETRIS」
 - 2年生「ShareFaves」
 - 3年生「KanjiQuiz」

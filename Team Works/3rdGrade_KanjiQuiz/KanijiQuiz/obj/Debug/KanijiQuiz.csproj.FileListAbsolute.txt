@@ -1,0 +1,22 @@
+C:\ckadai\C#\KanijiQuiz\KanijiQuiz\bin\Debug\KanijiQuiz.exe.config
+C:\ckadai\C#\KanijiQuiz\KanijiQuiz\bin\Debug\KanijiQuiz.exe
+C:\ckadai\C#\KanijiQuiz\KanijiQuiz\bin\Debug\KanijiQuiz.pdb
+C:\ckadai\C#\KanijiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.csproj.AssemblyReference.cache
+C:\ckadai\C#\KanijiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.csproj.SuggestedBindingRedirects.cache
+C:\ckadai\C#\KanijiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.Form1.resources
+C:\ckadai\C#\KanijiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.Properties.Resources.resources
+C:\ckadai\C#\KanijiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.csproj.GenerateResource.cache
+C:\ckadai\C#\KanijiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.csproj.CoreCompileInputs.cache
+C:\ckadai\C#\KanijiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.exe
+C:\ckadai\C#\KanijiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.pdb
+C:\Users\kd133\OneDrive - 神戸電子専門学校\デスクトップ\Portfolio\Team Works\3rdGrade_KanjiQuiz\KanijiQuiz\bin\Debug\KanijiQuiz.exe.config
+C:\Users\kd133\OneDrive - 神戸電子専門学校\デスクトップ\Portfolio\Team Works\3rdGrade_KanjiQuiz\KanijiQuiz\bin\Debug\KanijiQuiz.exe
+C:\Users\kd133\OneDrive - 神戸電子専門学校\デスクトップ\Portfolio\Team Works\3rdGrade_KanjiQuiz\KanijiQuiz\bin\Debug\KanijiQuiz.pdb
+C:\Users\kd133\OneDrive - 神戸電子専門学校\デスクトップ\Portfolio\Team Works\3rdGrade_KanjiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.csproj.AssemblyReference.cache
+C:\Users\kd133\OneDrive - 神戸電子専門学校\デスクトップ\Portfolio\Team Works\3rdGrade_KanjiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.csproj.SuggestedBindingRedirects.cache
+C:\Users\kd133\OneDrive - 神戸電子専門学校\デスクトップ\Portfolio\Team Works\3rdGrade_KanjiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.Form1.resources
+C:\Users\kd133\OneDrive - 神戸電子専門学校\デスクトップ\Portfolio\Team Works\3rdGrade_KanjiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.Properties.Resources.resources
+C:\Users\kd133\OneDrive - 神戸電子専門学校\デスクトップ\Portfolio\Team Works\3rdGrade_KanjiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.csproj.GenerateResource.cache
+C:\Users\kd133\OneDrive - 神戸電子専門学校\デスクトップ\Portfolio\Team Works\3rdGrade_KanjiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.csproj.CoreCompileInputs.cache
+C:\Users\kd133\OneDrive - 神戸電子専門学校\デスクトップ\Portfolio\Team Works\3rdGrade_KanjiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.exe
+C:\Users\kd133\OneDrive - 神戸電子専門学校\デスクトップ\Portfolio\Team Works\3rdGrade_KanjiQuiz\KanijiQuiz\obj\Debug\KanijiQuiz.pdb
