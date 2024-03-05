@@ -1,28 +1,34 @@
 # NewR-Code
-
 2023年度チーム制作。
 
 ## 概要
-
 画像とQRコード合成して、見分けやすいかつおしゃれなQRコードを生成するサービスです。
-
 LINEボットとウェブサイトがあります。
 
-## デモ
+- NewR-Code(Webサイト)
+<https://active-serval-regularly.ngrok-free.app/>
 
-https://active-serval-regularly.ngrok-free.app/
+- LINE bot
+<http://tinyurl.com/ykqj3crm>
 
-サーバーが開いていない可能性もございます。ご了承ください。
+- デモ動画
+<https://www.youtube.com/watch?v=PQAS9gIdVoM>
+
+※サーバーが開いていない可能性もございます。ご了承ください。
+
+### 使用言語
+- Python
+- HTML/CSS
+- JavaScript
+
 
 ## 機能
-
 - JPG/PNG画像をQRコードを合成
 - GIF画像とQRコードを合成
 - QRコードの色透明度を選択
 - ポスター製作
 
 ## 使い方
-
 1. 画像を選択
 2. URLを入力
 3. 色、透明度を選択
