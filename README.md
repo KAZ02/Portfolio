@@ -8,7 +8,7 @@
 - 2年生「季節判定アプリ(UI&UX課題)」
 - 3年生「TIM」
 
-### Group Works
+### Team Works
 学校で行われたグループワークの成果物です。
 - 1年生「TETRIS」
 - 2年生「ShareFaves」
