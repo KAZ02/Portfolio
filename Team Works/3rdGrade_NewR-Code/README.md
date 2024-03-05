@@ -1,7 +1,13 @@
 # NewR-Code
-2023年度チーム制作。
+
+<img width="1000" alt="NewR-Code" src="https://github.com/KAZ02/Portfolio/assets/119021231/8cf437b0-b295-4be3-a269-a860921d7e6e">
+
+<img width="300" alt="Linebot1" src="https://github.com/KAZ02/Portfolio/assets/119021231/5b5aeb14-045b-4183-acfb-d84f6ed85a41">
+
+<img width="300" alt="Linebot2" src="https://github.com/KAZ02/Portfolio/assets/119021231/424d4c2d-cecc-4fee-af91-449da84e8047">
 
 ## 概要
+2023年度チーム制作。
 画像とQRコード合成して、見分けやすいかつおしゃれなQRコードを生成するサービスです。
 LINEボットとウェブサイトがあります。
 

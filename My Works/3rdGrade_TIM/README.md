@@ -1,5 +1,7 @@
 # TIM
 
+<img width="1000" alt="TIM" src="https://github.com/KAZ02/Portfolio/assets/119021231/24d1bb09-fd3b-4d65-8223-571891292cf0">
+
 ### 概要
 2023年度の個人制作課題
 経過日数を視覚的に分かりやすくしたカレンダーです。
@@ -22,4 +24,4 @@
 
 
 ### 作者
-神戸電子専門学校　0H02031　譜久嶺和沙
+[GitHub](https://github.com/KAZ02)

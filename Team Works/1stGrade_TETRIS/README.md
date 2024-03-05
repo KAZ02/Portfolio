@@ -3,8 +3,11 @@
 ### 概要
 2021年度のチーム制作課題
 TETRISです。
+
 プロダクト紹介Webページ
 <https://kd1339181.wixsite.com/my-site-5>
+
+Webページ制作 [GitHub](https://github.com/KAZ02)
 
 ### 使用言語
 - C言語
@@ -32,4 +35,3 @@ TETRISです。
 
 ### 作者
 HaSKA-R
-Webページ制作：譜久嶺和沙

@@ -1,5 +1,7 @@
 # DOGE JAPANESE
 
+<img width="1000" alt="DOGE JAPANESE" src="https://github.com/KAZ02/Portfolio/assets/119021231/760f78b6-9821-4214-ada6-9b974a79e1eb">
+
 ### 概要
 2022年度の個人製作課題
 初歩的な日本語「数字・季節・方角」を「漢字・ひらがな・カタカナ」で勉強できるアプリケーションです。
@@ -17,4 +19,4 @@
 4. 単語を選択し、単語、振り仮名のローマ字と音声で初歩的な日本語を学習。
 
 ### 作者
-神戸電子専門学校　0H02031　譜久嶺和沙
+[GitHub](https://github.com/KAZ02)

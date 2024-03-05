@@ -1,5 +1,9 @@
 # TicTacToe
 
+<img width="1000" alt="TicTacToe" src="https://github.com/KAZ02/Portfolio/assets/119021231/04046934-1a0f-4866-b4e4-09edfe1a7c98">
+
+
+
 ### 概要
 2021年度の個人製作課題
 ユーザー同士で競う三目並べゲームです。
@@ -20,4 +24,4 @@
 4. プレイヤー１、プレイヤー２ともに３マスとれなかった場合は引き分けとなります。
 
 ### 作者
-神戸電子専門学校　0G07030　譜久嶺和沙
+[GitHub](https://github.com/KAZ02)

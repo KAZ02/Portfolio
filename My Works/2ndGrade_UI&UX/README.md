@@ -1,5 +1,7 @@
 # 季節判定アプリ
 
+<img width="1000" alt="季節判定アプリ" src="https://github.com/KAZ02/Portfolio/assets/119021231/1d2edf5d-9ee1-446f-8ed4-c359749102f1">
+
 ### 概要
 2022年度のUI&UX課題
 入力した数字で季節を判定するアプリです。
@@ -20,4 +22,4 @@ UIとUXを審査基準とするUI&UX課題でクラス代表に選出されま�
 3. 設定画面で「日本語・にほんご・English」から表示言語を選択できます。
 
 ### 作者
-神戸電子専門学校　0H02031　譜久嶺和沙
+[GitHub](https://github.com/KAZ02)

@@ -1,5 +1,7 @@
 # KanjiQuiz(御座候)
 
+<img width="1000" alt="KanjiQuiz" src="https://github.com/KAZ02/Portfolio/assets/119021231/3943836b-8314-481b-9688-f349789decc3">
+
 ### 概要
 2023年度のチーム制作課題
 チーム制作で制作した「御座候」
