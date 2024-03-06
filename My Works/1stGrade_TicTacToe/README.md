@@ -3,10 +3,13 @@
 <img width="1000" alt="TicTacToe" src="https://github.com/KAZ02/Portfolio/assets/119021231/04046934-1a0f-4866-b4e4-09edfe1a7c98">
 
 
-
 ### 概要
 2021年度の個人製作課題
 ユーザー同士で競う三目並べゲームです。
+
+### 開発環境
+- TeraPad
+- コマンドプロンプト
 
 ### 使用言語
 - C言語

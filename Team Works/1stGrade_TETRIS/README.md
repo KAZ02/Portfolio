@@ -9,6 +9,10 @@ TETRISです。
 
 Webページ制作 [GitHub](https://github.com/KAZ02)
 
+### 開発環境
+- Visuatl Studio
+- Visuatl Studio Code
+
 ### 使用言語
 - C言語
 - HTML/CSS
@@ -34,4 +38,4 @@ Webページ制作 [GitHub](https://github.com/KAZ02)
 　獲得したスコアが表示されます。
 
 ### 作者
-HaSKA-R
+神戸電子専門学校　2021年度　チームHaSKA-R
