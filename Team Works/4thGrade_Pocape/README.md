@@ -4,7 +4,9 @@
 2024年度のチーム制作課題
 新感覚SNS「Pocape」です。
 
-<img width="200" alt="Linebot1" src="https://github.com/KAZ02/Portfolio/blob/main/Team%20Works/4thGrade_Pocape/images/AppImage.jpeg">
+<img width="1000" alt="アプリ画像" src="https://github.com/KAZ02/Portfolio/blob/main/Team%20Works/4thGrade_Pocape/images/AppImage.jpeg">>&nbsp;&nbsp;&nbsp;
+<img width="200" alt="アプリ概要" src="https://github.com/KAZ02/Portfolio/blob/main/Team%20Works/4thGrade_Pocape/images/AppImage.jpeg">
+
 
 アプリダウンロード(Android版)
 https://play.google.com/store/apps/details?id=com.anonymous.mapApp&pcampaignid=web_share
