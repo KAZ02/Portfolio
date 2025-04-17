@@ -4,6 +4,9 @@
 2024年度のチーム制作課題
 新感覚SNS「Pocape」です。
 
+アプリダウンロード(Android版)
+https://play.google.com/store/apps/details?id=com.anonymous.mapApp&pcampaignid=web_share
+
 プロダクト紹介Webページ
 <https://ekatiihs.wordpress.com/>
 
