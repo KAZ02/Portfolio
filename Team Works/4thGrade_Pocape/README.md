@@ -32,7 +32,5 @@ https://play.google.com/store/apps/details?id=com.anonymous.mapApp&pcampaignid=w
 - ユーザー検索/フォロー機能
 - カメラ合成機能
 
-### 操作方法
-
 ### 作者
 神戸電子専門学校　2024年度　チームEkatiihS
