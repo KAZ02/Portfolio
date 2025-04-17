@@ -5,7 +5,7 @@
 新感覚SNS「Pocape」です。
 
 <img width="200" alt="アプリ画像" src="https://github.com/KAZ02/Portfolio/blob/main/Team%20Works/4thGrade_Pocape/images/AppImage.jpeg">>&nbsp;&nbsp;&nbsp;
-<img width="200" alt="アプリ概要" src="https://github.com/KAZ02/Portfolio/blob/main/Team%20Works/4thGrade_Pocape/images/AppImage.jpeg">
+<img width="200" alt="アプリ概要" src="https://github.com/KAZ02/Portfolio/blob/main/Team%20Works/4thGrade_Pocape/images/AboutApp.jpeg">
 
 
 アプリダウンロード(Android版)
